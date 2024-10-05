@@ -28,7 +28,7 @@ Then for the frontend run `pnpm install`
 and `pip install -r requirements.txt` for each of the backend projects (just read up on how to add your keys for the online-gpt)
 
 
-<<<<<<< HEAD
+
 ## Todos
 - [ ] Expand the project's UI to be a bit more user friendly
 - [ ] Live updates for GPU utilization
@@ -38,16 +38,3 @@ and `pip install -r requirements.txt` for each of the backend projects (just rea
 - [ ] User sign-in
 - [ ] User preference persistence 
 - [ ] Finish the project's Docker Compose
-=======
-Todos
-[] Expand the project UI to be a bit more user-friendly
-[] Live updates for GPU utilisation
-[] More LLMs (hopefully some from Ollama that do not need CUDA+cudnn to utilise the GPU)
-[] More customised prompts and integration with selection
-[] Lookups for old questions to a LLMs
-[] User sign in
-[] User preference persistence 
-[] Finish the project's docker-compose
->>>>>>> 892ff9976b0aca54d53ecbf956ae502c35dff68a
-
-
