@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  ai-app:
+    build: .
+    command: uvicorn main:app --host 0.0.0.0 --port 8090
+    container_name: local-llm-container
+    ports:
+      - "8090:8090"
+

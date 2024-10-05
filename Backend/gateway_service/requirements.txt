@@ -1,0 +1,6 @@
+Django~=4.2.7
+requests~=2.31.0
+djangorestframework~=3.14.0
+django-rest-swagger
+drf_yasg
+django-cors-headers
