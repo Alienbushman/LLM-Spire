@@ -22,7 +22,9 @@ This project follows an **orchestrator pattern** with Vue for the frontend, Djan
 - Python 3.x
 - Node.js
 - Preferably cuda+cudnn if you want to run the models on a GPU
+  
 Then for the frontend run `pnpm install`
+
 and `pip install -r requirements.txt` for each of the backend projects (just read up on how to add your keys for the online-gpt)
 
 
