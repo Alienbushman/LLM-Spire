@@ -1,0 +1,4 @@
+/* Disable uppercase transformation for all text */
+* {
+    text-transform: none;
+}
