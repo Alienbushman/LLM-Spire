@@ -25,14 +25,14 @@ This project follows an **orchestrator pattern** with Vue for the frontend, Djan
 - Preferably cuda+cudnn if you want to run the models on a GPU
 
 
-Todos
-[] Expand the projects UI to be a bit more user friendly
-[] Live updates for GPU utalisation
-[] More LLM's (hopefully some from ollama that do not need CUDA+cudnn to utalise the GPU)
-[] More customised prompts and integration with selection
-[] Lookups for old questions to a LLMs
-[] User sign in
-[] User preference persistence 
-[] Finish the project's docker compose
+## Todos
+- [ ] Expand the project's UI to be a bit more user friendly
+- [ ] Live updates for GPU utilization
+- [ ] More LLMs (hopefully some from Ollama that do not need CUDA + cuDNN to utilize the GPU)
+- [ ] More customized prompts and integration with selection
+- [ ] Lookups for old questions to LLMs
+- [ ] User sign-in
+- [ ] User preference persistence 
+- [ ] Finish the project's Docker Compose
 
 
