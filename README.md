@@ -12,7 +12,8 @@ Welcome to **LLM Spire**, your go-to solution for spinning up your own Large Lan
 - **Robust Backend**: Leverage Django's capabilities for secure and efficient data handling.
 - **Flexible Machine Learning Support**: Ideal for projects ranging from chatbots to content generation.
 
-This project follows an **orchestrator pattern** with Vue for the frontend, Django as a gateway/orchestrator, and microservices using FastAPI (README's in each on how to get going).
+This project follows an **orchestrator pattern** with Vue for the frontend, Django as a gateway/orchestrator, and microservices using FastAPI 
+
 
 ## Getting Started
 
@@ -20,19 +21,19 @@ This project follows an **orchestrator pattern** with Vue for the frontend, Djan
 
 - Python 3.x
 - Node.js
-- Django
-- Vue.js
 - Preferably cuda+cudnn if you want to run the models on a GPU
+Then for the frontend run `pnpm install`
+and `pip install -r requirements.txt` for each of the backend projects (just read up on how to add your keys for the online-gpt)
 
 
 Todos
-[] Expand the projects UI to be a bit more user friendly
-[] Live updates for GPU utalisation
-[] More LLM's (hopefully some from ollama that do not need CUDA+cudnn to utalise the GPU)
+[] Expand the project UI to be a bit more user-friendly
+[] Live updates for GPU utilisation
+[] More LLMs (hopefully some from Ollama that do not need CUDA+cudnn to utilise the GPU)
 [] More customised prompts and integration with selection
 [] Lookups for old questions to a LLMs
 [] User sign in
 [] User preference persistence 
-[] Finish the project's docker compose
+[] Finish the project's docker-compose
 
 
