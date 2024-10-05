@@ -7,9 +7,9 @@
 				<li>Vite - Blazing fast(TM) SPA builder tool</li>
 				<li>Typescript</li>
 				<li>Vuetify 3 - Component library based on Material</li>
+				<li>Quasar - Another component library</li>
 				<li>Pinia - State management library</li>
-				<li>Vue Router 4 - Routing library to nagivate between pages and provide url metadata</li>
-				<li>pnpm - Node package manager</li>
+				<li>Vue Router 4 - Routing library </li>
 				<li>Vue-Devtools - Debugging state of vue</li>
 				<li>Axios - a lightweight method of communicating with apis</li>
 			</ul>
