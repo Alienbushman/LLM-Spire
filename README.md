@@ -1,2 +1,38 @@
 # vue-django-template
-This is a base template that I use to get a POC up and running utalising django and vue. It is also where I dump 80% solutions
+
+## Overview
+
+Welcome to **LLM Spire**, your go-to solution for spinning up your own Large Language Models (LLMs) or leveraging GPT if you don't want to host the models! Built on a powerful combination of **Vue** and **Django**, LLM Spire empowers developers and data enthusiasts to harness the capabilities of advanced language models with ease.
+
+## Features
+
+- **Spin Up Your Own LLMs**: Quickly deploy custom LLMs tailored to your specific needs.
+- **GPT Integration**: Seamlessly integrate with OpenAI's GPT for versatile applications.
+- **User-Friendly Interface**: A sleek, intuitive front-end powered by Vue for a smooth user experience.
+- **Robust Backend**: Leverage Django's capabilities for secure and efficient data handling.
+- **Flexible Machine Learning Support**: Ideal for projects ranging from chatbots to content generation.
+
+This project follows an **orchestrator pattern** with Vue for the frontend, Django as a gateway/orchestrator, and microservices using FastAPI (README's in each on how to get going).
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Node.js
+- Django
+- Vue.js
+- Preferably cuda+cudnn if you want to run the models on a GPU
+
+
+Todos
+[] Expand the projects UI to be a bit more user friendly
+[] Live updates for GPU utalisation
+[] More LLM's (hopefully some from ollama that do not need CUDA+cudnn to utalise the GPU)
+[] More customised prompts and integration with selection
+[] Lookups for old questions to a LLMs
+[] User sign in
+[] User preference persistence 
+[] Finish the project's docker compose
+
+
