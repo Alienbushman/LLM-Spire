@@ -32,11 +32,11 @@ onMounted(() => {
 		</template>
 	</q-banner>
 	<v-container class="d-flex flex-column align-center">
-	<v-card min-width="75%" class="invisible-border mb-4">
+	<v-card width="75%" class="invisible-border mb-4">
 		<v-card-title> Running on device</v-card-title>
 		<v-card-text>{{ location }}</v-card-text>
 	</v-card>
-	<v-card min-width="75%" class="invisible-border mb-4">
+	<v-card width="75%" class="invisible-border mb-4">
 		<v-card-title> GPU usage details</v-card-title>
 		<v-card-text>{{ gpu_usage }}</v-card-text>
 	</v-card>
