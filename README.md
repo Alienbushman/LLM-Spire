@@ -10,7 +10,7 @@ Welcome to **LLM Spire**, your go-to solution for spinning up your own Large Lan
 - **GPT Integration**: Seamlessly integrate with OpenAI's GPT for versatile applications.
 - **User-Friendly Interface**: A sleek, intuitive front-end powered by Vue for a smooth user experience.
 - **Robust Backend**: Leverage Django's capabilities for secure and efficient data handling.
-- **Flexible Machine Learning Support**: Ideal for projects ranging from chatbots to content generation.
+- **Complete offline support**: Ideal for anyone who needs an LLM for sensitive data
 
 This project follows an **orchestrator pattern** with Vue for the frontend, Django as a gateway/orchestrator, and microservices using FastAPI 
 
