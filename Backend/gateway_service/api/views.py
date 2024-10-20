@@ -10,6 +10,7 @@ from api.serializers import LLMOpinionModelSerializer
 import requests
 
 INSIDE_DOCKER = False
+online_models = {'gpt-3', 'gpt4-mini'}
 
 
 class LLMOpinionModelView(APIView):
@@ -44,13 +45,14 @@ class LLMOpinionModelView(APIView):
         host = 'localhost'
         port = '8090'
         endpoint = 'model-response'
+
         if INSIDE_DOCKER:
             host = 'llm-ai'
-        if model == 'gpt3':
+        if model in online_models:
             port = '8091'
 
         url = f"http://{host}:{port}/{endpoint}"
-        if model != 'gpt3':
+        if model not in online_models:
             response = requests.get(url, params={"prompt": question, "model": model})
         else:
             response = requests.get(url, params={"prompt": question})

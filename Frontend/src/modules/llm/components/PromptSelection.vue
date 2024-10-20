@@ -4,11 +4,11 @@ const emit = defineEmits(['update:questionType', 'update:techStack', 'update:mod
 
 const questionTypeSelected = ref('coding');
 const techStackSelected = ref('vue');
-const modelSelected = ref('gpt3');
+const modelSelected = ref('gpt4-mini');
 
 const questionTypeItems = ['text', 'coding'];
 const techStackItems = ['vue', 'java', 'python'];
-const modelItems = ['gpt3', 't5-small', 'gpt2', 'mia', 'gpt-neo-2.7B', 'gpt-j-6b', 'experimental'];
+const modelItems = ['gpt4-mini', 't5-small', 'gpt2', 'mia', 'gpt-neo-2.7B', 'gpt-j-6b', 'experimental'];
 
 watch(
 	questionTypeSelected,
