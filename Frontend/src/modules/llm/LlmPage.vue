@@ -42,7 +42,7 @@ const loadingQuestion = computed(() => useLLMStore().loading);
 	<v-container justify-center >
 		<v-card>
 			<v-card-title class="headline text-center">Welcome to the local LLM</v-card-title>
-			<v-card-text v-if="model !== 'gpt3'">
+			<v-card-text v-if="model !== 'gpt4-mini'">
 				<p class="text-center">
 					This is running 100% locally
 				</p>
