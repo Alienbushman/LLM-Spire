@@ -23,7 +23,7 @@ from django.conf.urls.static import static
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="VT CRUD Django",
+        title="Django CRUD",
         default_version='v1',
         description="A basic crud app that shows what different URLS do",
     ),
@@ -33,7 +33,6 @@ schema_view = get_schema_view(
 urlpatterns = [
     # a basic swagger view
     path('', schema_view.with_ui('swagger'), name='schema-swagger-ui'),
-    # path('redoc/', schema_view.with_ui('redoc'), name='schema-redoc'),
     path('admin/', admin.site.urls),
     path('api/', include('api.urls'))
 ]
