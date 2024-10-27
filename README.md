@@ -4,6 +4,10 @@
 
 Welcome to **LLM Spire**, your go-to solution for spinning up your own Large Language Models (LLMs) or leveraging GPT if you don't want to host the models! Built on a powerful combination of **Vue** and **Django**, LLM Spire empowers developers and data enthusiasts to harness the capabilities of advanced language models with ease.
 
+### Demo of the site
+This is a basic demostration of the functionality
+![Website](media/demo.gif)
+
 ## Features
 
 - **Spin Up Your Own LLMs**: Quickly deploy custom LLMs tailored to your specific needs.
