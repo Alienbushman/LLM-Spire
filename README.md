@@ -1,4 +1,4 @@
-# vue-django-template
+# Spinning up a quick offline LLM
 
 ## Overview
 
